@@ -75,8 +75,14 @@ cd student-management-system
 Make sure MySQL is running, then update application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/student_db
+
+
 spring.datasource.username=root
+
+
 spring.datasource.password=your_password
+
+
 spring.jpa.hibernate.ddl-auto=update
 
 ###Create the database manually in MySQL:
